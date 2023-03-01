@@ -1,0 +1,15 @@
+E:\SonNH49\KiotViet\TestKiotViet\TestKiotViet\bin\Debug\net5.0\TestKiotViet_1.exe
+E:\SonNH49\KiotViet\TestKiotViet\TestKiotViet\bin\Debug\net5.0\TestKiotViet_1.deps.json
+E:\SonNH49\KiotViet\TestKiotViet\TestKiotViet\bin\Debug\net5.0\TestKiotViet_1.runtimeconfig.json
+E:\SonNH49\KiotViet\TestKiotViet\TestKiotViet\bin\Debug\net5.0\TestKiotViet_1.runtimeconfig.dev.json
+E:\SonNH49\KiotViet\TestKiotViet\TestKiotViet\bin\Debug\net5.0\TestKiotViet_1.dll
+E:\SonNH49\KiotViet\TestKiotViet\TestKiotViet\bin\Debug\net5.0\ref\TestKiotViet_1.dll
+E:\SonNH49\KiotViet\TestKiotViet\TestKiotViet\bin\Debug\net5.0\TestKiotViet_1.pdb
+E:\SonNH49\KiotViet\TestKiotViet\TestKiotViet\obj\Debug\net5.0\TestKiotViet_1.GeneratedMSBuildEditorConfig.editorconfig
+E:\SonNH49\KiotViet\TestKiotViet\TestKiotViet\obj\Debug\net5.0\TestKiotViet_1.AssemblyInfoInputs.cache
+E:\SonNH49\KiotViet\TestKiotViet\TestKiotViet\obj\Debug\net5.0\TestKiotViet_1.AssemblyInfo.cs
+E:\SonNH49\KiotViet\TestKiotViet\TestKiotViet\obj\Debug\net5.0\TestKiotViet_1.csproj.CoreCompileInputs.cache
+E:\SonNH49\KiotViet\TestKiotViet\TestKiotViet\obj\Debug\net5.0\TestKiotViet_1.dll
+E:\SonNH49\KiotViet\TestKiotViet\TestKiotViet\obj\Debug\net5.0\ref\TestKiotViet_1.dll
+E:\SonNH49\KiotViet\TestKiotViet\TestKiotViet\obj\Debug\net5.0\TestKiotViet_1.pdb
+E:\SonNH49\KiotViet\TestKiotViet\TestKiotViet\obj\Debug\net5.0\TestKiotViet_1.genruntimeconfig.cache
