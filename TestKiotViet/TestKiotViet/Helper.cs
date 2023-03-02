@@ -8,52 +8,65 @@ namespace TestKiotViet
 {
     public class Helper
     {
+       
         public int CheckCocaCola(int n)
         {
             try
             {
-                var total = n;
-                var soDu = 0;
-                if (n % 3 == 0)
+                int x = n;
+                int y = 0;
+                int kq = n;
+                do
                 {
-                    soDu = 1;
-                }
-                else
-                {
-                    soDu = n % 3;
-                }
-                int thamSo = (int)Math.Floor((decimal)n / 3);
-                if (thamSo == 1)
-                {
-                    total += 2;
-                }
-                else
-                {
-                    while (thamSo > 1)
-                    {
-
-                        total += thamSo;
-                        soDu += thamSo % 3;
-                        thamSo = (int)Math.Floor((decimal)thamSo / 3);
-
-                        if (thamSo == 1)
-                        {
-                            total += 1;
-                        }
-                        if (soDu % 3 == 0)
-                        {
-                            total += 1;
-                            soDu = 1;
-                        }
-                    }
-                }
-                return total;
+                    y = x % 3;
+                    x = x / 3;
+                    kq += x;
+                    x = x + y;
+                } while (x > 2);
+                return kq;
             }
             catch (Exception ex)
             {
-
-                return default(int) ;
+                Console.WriteLine($"Error 500: {ex.Message}");
+                return default(int);
             }
         }
+        public int DynamicProgramingArray(int[] arrayLst)
+        {
+           
+            //int min = 0;
+            //foreach (var item in leftlimit)
+            //{
+            //    Console.WriteLine($"So leftlimit: {item}");
+                
+            //}
+            //foreach (var item in rightlimit )
+            //{
+            //    Console.WriteLine($"So rightlimit: {item}");
+
+            //}
+            //// loop through and process each index in the heights array
+            //for (int i = 0; i < arrayLst.Length-1; i++)
+            //{
+            //    // use the Find function to get the bounds of the rectangle
+            //    min = Math.Min(min, (Find(arrayLst,arrayLst[i], i) - Find(arrayLst, arrayLst[i+1], i)));
+            //}
+
+            return 0;
+
+        }
+        //int Find(int[] heights, int limit, int idx)
+        //{
+        //    // keep searching for the limit as long as we are within the bounds of the array
+        //    // and we haven't found a lower height
+        //    while (limit >= 0 && limit < heights[idx]+limit && heights[idx] <= heights[limit])
+        //    {
+        //        // use recursion here to find the next value and then update the array
+        //        limit[idx] = Find(heights, limit, limit[idx]);
+        //    }
+        //    return limit[idx];
+        //}
+
+
     }
 }
